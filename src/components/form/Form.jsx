@@ -71,7 +71,7 @@ const Form = () => {
   };
   return (
     <form
-      className="flex flex-col  justify-center p-4 border shadow w-full max-w-sm mx-auto font-poppins"
+      className="flex flex-col  justify-center p-4 border shadow rounded w-full max-w-sm mx-auto font-poppins"
       onSubmit={formSubmitHandler}
     >
       <img src={Logo} alt="App Logo" className="w-32 mx-auto mb-3" />
